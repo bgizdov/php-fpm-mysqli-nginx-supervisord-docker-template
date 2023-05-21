@@ -1,0 +1,8 @@
+/opt/app/log.txt {
+	missingok
+	notifyempty
+	maxsize 10M
+	daily
+	create 0666 www-data www-data
+	rotate 4
+}
